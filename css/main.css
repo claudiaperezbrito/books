@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  font-family: 'Georgia','Palatino', serif;
+  background: #313d4b;
+}
+
+#entirecontainer {
+  max-width: 800px;
+  margin: 2rem auto;
+  background: #92D8FC;
+  padding:2rem;
+}
+#bookform{
+  text-align: justify;
+}
+#all {
+  text-align: center;
+}
+#response{
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  margin: 0;
+  font-size: 2rem;
+  font-family: 'Trebuchet MS' , sans-serif;
+}
+
+#intro {
+  text-align: center;
+}
+
+#direction {
+  text-align: justify;
+}
+#books {
+  text-align:center;
+}
+p{
+  color:#000;
+}
+label {
+  line-height: 1.5rem;
+  font-size: 1.1rem;
+}
+
+
+/* links */
+
+a {
+  color: #74063D;
+}
+
+a:hover {
+  color: #a85e9e;
+  text-decoration: none;
+}
+
+/* my media queries begin here */
+
+@media screen and ( max-width: 700px ) {
+  body {
+    background: #92D8FC;
+  }
+  #entirecontainer {
+    margin: 10px auto;
+    padding: 10px;
+  }
+  #books {
+    width: 100%;
+  }
+  h1 {
+    font-size: 1.5rem;
+  }
+  label {
+    line-height: 1rem;
+    font-size: 1rem;
+  }
+}

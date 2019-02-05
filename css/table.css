@@ -1,0 +1,65 @@
+#new {
+  margin: inherit;
+  text-align: center;
+}
+
+#entirecontainer {
+  max-width: 1000px;
+  margin: 2rem auto;
+  background: #92D8FC;
+  padding: 3em;
+}
+#tablecontainer {
+  max-width: 800px;
+  margin: 2rem auto;
+  background: #92D8FC;
+  padding:2rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/*modified from pure css https://purecss.io/tables/*/
+table {
+  /* Remove spacing between table cells (from Normalize.css) */
+  border-spacing: 0;
+  border: 1px;
+  background: #FBF4CF;
+  margin: 20px auto;
+}
+
+td, th {
+  font-size: inherit;
+  margin: 0;
+  overflow: visible;
+  padding: .6em;
+}
+
+th {
+  background: #FBD422;
+  text-align: left;
+  vertical-align: bottom;
+}
+
+/*my media queries begin here*/
+@media screen and ( max-width: 1030px) {
+  body {
+    background: #92D8FC;
+  }
+}
+
+@media screen and ( max-width: 825px) {
+  #container {
+    max-width: 100%;
+    min-width: 100%;
+    margin: auto;
+    padding: 1em 0;
+  }
+  p {
+    width: 90%;
+    margin: auto;
+  }
+  td, th {
+    padding: 0.3em;
+  }
+}
