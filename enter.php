@@ -29,7 +29,7 @@ if (isset($_POST['book']) && isset($_POST['author'])) {
         $author,
         $setting,
         $adaptation,
-        $settingtwo,
+        $settingtwo
         );
 
   mysqli_stmt_execute($stmt);
